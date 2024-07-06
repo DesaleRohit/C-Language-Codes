@@ -21,8 +21,8 @@ void output();
 	}
 	void output(){
 		printf("\nRollno=%d",S.rollno);
-		printf("\nName=%s",S.name);
-		printf("\nfees=%f",S.fees);
+		printf("\tName=%s",S.name);
+		printf("\tfees=%f",S.fees);
 	}
 	
 int main(){ 
